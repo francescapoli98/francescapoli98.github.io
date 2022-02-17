@@ -11,8 +11,13 @@ body {
 	font-size: 24px;
 	font-weight: 300;
 	overflow-x: hidden;
+    /*trying out background gradient*/
+    background:rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 	
 }
+
+
 
 a, button {
 	transition: all 0.3s ease;
@@ -58,42 +63,6 @@ p {
 
 .tm-content {
     z-index: 1001;
-}
-
-.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: white;
-}
-.form-control::-moz-placeholder { /* Firefox 19+ */
-  color: white;
-}
-.form-control:-ms-input-placeholder { /* IE 10+ */
-  color: white;
-}
-.form-control:-moz-placeholder { /* Firefox 18- */
-  color: white;
-}
-
-.form-control::placeholder {
-    color: white;
-}
-
-.form-control {  
-    color: #FFFFFF;
-    border-radius: .5rem;
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.4rem;
-    font-weight: 300;
-    padding: 0.75rem 1.2rem;
-}
-
-.form-section {  
-    color: #FFFFFF;
-    background-color: transparent;
-    margin-bottom: 100px;
-    
 }
 
 .contact_email {
@@ -142,7 +111,7 @@ p {
     z-index: 1001;
 }
 
-/* Animation */
+/* Animation (not active atm)*/
 .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;
