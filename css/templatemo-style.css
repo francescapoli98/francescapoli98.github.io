@@ -12,8 +12,8 @@ body {
 	font-weight: 300;
 	overflow-x: hidden;
     /*trying out background gradient*/
-    background:rgb(63,94,251);
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(58,67,125,1) 0%, rgba(184,71,181,1) 100%);
 	
 }
 
