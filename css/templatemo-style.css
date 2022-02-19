@@ -84,7 +84,8 @@ p {
 
 .tm-social-icons-container {
     margin: 10px;
-}
+    position: fixed;
+} 
 
 .tm-social-link {
     border-color: #FFFFFF;
@@ -102,7 +103,7 @@ p {
 .footer-link {
     margin: 20px;
 	font-size: 18px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     color: white;
