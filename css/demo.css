@@ -90,9 +90,9 @@ a{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     padding: 0px 0px 5px 0px;
 }
-.container > header h1 span{
+/*.container > header h1 span{
 
-}
+}*/
 .container > header h2, p.info{
 	font-size: 16px;
 	font-style: italic;
