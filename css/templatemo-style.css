@@ -44,7 +44,9 @@ h1 {
 p {
 	color: #FFFFFF;	
 }
-
+#hi p{
+    color: aliceblue;
+}
 #particles-js {
     position: absolute;
     top: 0;
@@ -198,9 +200,21 @@ p {
 }
 
 
+@media screen and (max-width: 1200px) { 
+    h1{
+        text-align: center;
+    }
+}
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
 }
+@media screen and (max-width: 960px) {
+    h1,p{
+        text-align: left;
+        margin-left: 5px;
+    }
+}
+    
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
 	.tm-content {
