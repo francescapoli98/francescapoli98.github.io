@@ -58,7 +58,7 @@ p {
     height: 99%;
 }
 #main{
-    display:block;
+    display:inline-block;
 }
 #cv,#proj{
     min-width: 100vh;
