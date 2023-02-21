@@ -59,6 +59,7 @@ p {
 }
 #main,#cv,#proj{
     min-width: 100vh;
+    z-index: 1001;
     background-color: #ededec;
 }
 .nav-link:hover{
