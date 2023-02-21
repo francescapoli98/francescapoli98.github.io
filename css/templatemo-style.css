@@ -59,6 +59,7 @@ p {
 }
 #main,#cv,#proj{
     min-width: 100vh;
+    background-color: #ededec;
 }
 .nav-link:hover{
     text-decoration: underline;
