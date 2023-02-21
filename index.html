@@ -23,11 +23,11 @@ Template Re-distribution is NOT allowed.
   <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
   <script src="https://kit.fontawesome.com/0038823a85.js" crossorigin="anonymous"></script>
 		
-	</head>
+</head>
 
 	<body>
 		<header>
-			<div class="tm-social-icons-container mb-5 ml-auto position-sticky">
+			<div class="tm-social-icons-container mb-5 ml-auto">
 				<a href="https://www.facebook.com/francescapoli.f/" class="tm-social-link" target="_blank"><i class="fa fa-facebook"></i></a>
 				<!-- Google Student Dev profile is only visible for other students <a href="https://gdsc.community.dev/u/mj7z9g/#/about" class="tm-social-link" target="_blank"><i class="fa fa-google"></i></a> -->
 				<a href="https://twitter.com/fridakhtulhu" class="tm-social-link" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -36,10 +36,10 @@ Template Re-distribution is NOT allowed.
 				<!--<a href="https://medium.com/@francescapoli1998" class="tm-social-link" target="_blank"><i class="fa fa-medium"></i></a> -->
 			</div>
 		</header> 
+		<!--style="z-index: -1;-->
+			<div  id="particles-js"></div>
 
-			<div style="z-index: -1;" id="particles-js"></div>
-
-			<div class="container-fluid" id="main">
+			<div class="container-fluid tm-content" id="main">
                 
 				<div class="row ">
 					<div class="col">					</div>
@@ -48,13 +48,13 @@ Template Re-distribution is NOT allowed.
 						<div class="mb-2 ml-auto text-xl-center container">
 							<h1 class="display-2">Hello, there</h1>
 						</div>
-						<div class="mb-5 text-sm-center container" id="hi"> 
+						<div class="mb-5 text-sm-left container" id="hi"> 
 							<p>I'm Francesca, a 24 year old digital humanities graduate and computer science student, working on my skills in the Artificial Intelligence field. </p>
-							<!--<p>My main interests at the moment are Human Language Technologies/NLP and Information Retrieval, and AI applictions for the Digital Humanities and Cultural Heritage.</p>
-							<p>This is a space to show my work and accomplishments, what I like and what inspires me. Thanks for visiting! </p>-->
+							<p>My main interests at the moment are Human Language Technologies/NLP and Information Retrieval, and AI applictions for the Digital Humanities and Cultural Heritage.</p>
+							<p>This is a space to show my work and accomplishments, what I like and what inspires me.</p> <p> Thanks for visiting! </p>
 							
 						</div>
-						<div class="mb-5 text-xl-center container">
+						<div class="mb-5 text-xl-center container tm-content">
 							<ul class="nav nav-pills nav-fill ml-auto text-xl-center">
 								<li class="nav-item">
 								  <a class="nav-link" aria-current="page" href="#cv">CV</a>
@@ -76,26 +76,46 @@ Template Re-distribution is NOT allowed.
 					<div class="col">					</div>
 				</div>	
 				
-				
 
-				<div class="row container-fluid" id="cv">
-					<!--colonne di dimensioni diverse per simulare la struttura del cv: colonna piccola vuota-colonna piccola con scritte-colonna grande a dx-->
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
-
-				<div class="row" id="proj">
-					<!--due colonne per i progetti, da una parte infouma e dall'altra cs-->
-					<div></div>
-					<div></div>
-				</div>
 			</div>	
 
 
 
+
+			<div class="row container-fluid tm-content" id="cv">
+				<!--colonne di dimensioni diverse per simulare la struttura del cv: colonna piccola vuota-colonna piccola con scritte-colonna grande a dx-->
+				<div class="row ml-2">
+					<h4 class="display-4"> Curriculum Vitae</h4>
+				</div>
+				<div class="row ml-4 container-fluid">
+					<div class="col text-right">
+						...
+					  </div>
+					  <div class="col-xl-5 text-left">
+						...
+					  </div>
+				</div>
+			</div>
+
+			<div class="row container-fluid tm-content" id="proj">
+				<!--due colonne per i progetti, da una parte infouma e dall'altra cs-->
+				<div class="row ml-2">
+					<h4 class="display-4"> Projects</h4>
+				</div>
+				<div class="row ml-4 container-fluid">
+					<div class="col text-right">
+						...
+					  </div>
+					  <div class="col-xl-5 text-left">
+						...
+					  </div>
+				</div>
+			</div>
+
+
+
 			<div class="footer-link">
-				<div class="col text-center position-static">
+				<div class="col text-center">
 					<p>Design: Francesca Poli</p>
 				</div>
 			</div>
