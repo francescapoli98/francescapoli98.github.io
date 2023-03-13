@@ -42,6 +42,11 @@ h1 {
 	font-size: 4rem;	
 }
 
+header{
+    position: -webkit-sticky;
+    z-index: 1001;
+}
+
 p {
 	color: #FFFFFF;	
 }
@@ -103,7 +108,7 @@ p {
 
 .tm-social-icons-container {
     margin: 10px;
-    position: block;
+    position: -webkit-sticky;
     z-index: 1001;
 } 
 
