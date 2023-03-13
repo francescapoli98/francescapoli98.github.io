@@ -59,11 +59,12 @@ p {
 }
 #main{
     display:inline-block;
+    width:100%;
 }
 #cv,#proj{
     min-width: 100vh;
     z-index: 1001;
-    background-color: #ededec;
+    background: #ededec;
 }
 .nav-link:hover{
     text-decoration: underline;
