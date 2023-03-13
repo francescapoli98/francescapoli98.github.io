@@ -102,8 +102,8 @@ p {
 }
 
 .tm-social-icons-container {
-    /*margin: 10px;*/
-    position: sticky;
+    margin: 10px;
+    position: block;
     z-index: 1001;
 } 
 
