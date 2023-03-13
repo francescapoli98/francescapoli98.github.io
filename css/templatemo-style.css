@@ -62,6 +62,7 @@ p {
     width:100%;
 }
 #cv,#proj{
+    width:100%;
     min-width: 100vh;
     z-index: 1001;
     background: #ededec;
