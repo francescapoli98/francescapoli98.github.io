@@ -104,6 +104,7 @@ p {
 .tm-social-icons-container {
     margin: 10px;
     position: sticky;
+    z-index: 1001;
 } 
 
 .tm-social-link {
