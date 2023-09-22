@@ -61,11 +61,7 @@ p {
     display:inline-block;
     width:100%;
 }
-#pic{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
+
 #cv,#proj{
     width:100%;
     min-width: 100vh;
