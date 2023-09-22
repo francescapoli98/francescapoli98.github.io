@@ -70,7 +70,7 @@ p {
     width:100%;
     min-width: 100vh;
     z-index: 1001;
-    background: #ededec;
+    background: #fcf1ff;
 }
 .nav-link:hover{
     text-decoration: underline;
