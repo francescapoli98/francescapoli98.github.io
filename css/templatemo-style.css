@@ -67,7 +67,6 @@ p {
     text-align: center;
 }
 #cv,#proj{
-    position: absolute;
     width:100%;
     min-width: 100vh;
     z-index: 1001;
