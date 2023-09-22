@@ -60,6 +60,7 @@ p {
 #main{
     display:inline-block;
     width:100%;
+    position: absolute;
 }
 #presentation{
     width: 100%;
