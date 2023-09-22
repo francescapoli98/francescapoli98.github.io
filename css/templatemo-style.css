@@ -2,7 +2,7 @@
 
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 300;
 	overflow-x: hidden;
     color: #FFFFFF;
@@ -15,7 +15,8 @@ body {
 
 
 a, button {
-	transition: all 0.3s ease;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 1s;
 	color: #FFFFFF;
 }
 
@@ -73,10 +74,11 @@ p {
     background: #fcf1ff;
 }
 .nav-link:hover{
-    text-decoration: underline;
-    /*text-decoration-thickness: 1.5px;
-    text-decoration-line:line-through;*/
-    transition-delay: 1s;
+    /*text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-decoration-line:line-through;
+    transition-delay: 100ms;*/
+    text-decoration-color: rgb(255, 255, 255);
 }
 
 .cb-slideshow-text-container {
