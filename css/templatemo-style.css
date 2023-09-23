@@ -15,7 +15,7 @@ body {
 
 
 a, button {
-    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    text-decoration: underline 0.05em rgba(255, 255, 255, 0);
     transition: 100ms;
 	color: #FFFFFF;
 }
