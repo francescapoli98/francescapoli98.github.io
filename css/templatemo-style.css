@@ -40,7 +40,7 @@ h1 {
 header{
     position: -webkit-sticky;
     z-index: 1001;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 p {
