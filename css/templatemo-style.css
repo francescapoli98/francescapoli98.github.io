@@ -66,11 +66,12 @@ p {
     width: 100%;
     text-align: center;
 }
-#cv,#proj{
+#cv,#projects,#contacts{
     width:100%;
     min-width: 100vh;
     z-index: 1001;
     background: #fcf1ff;
+    color: #000;
 }
 .nav-link:hover{
     text-decoration: underline;
