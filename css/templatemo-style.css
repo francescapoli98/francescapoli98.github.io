@@ -64,6 +64,7 @@ p {
 }
 #presentation{
     width: 100%;
+    text-align: center;
 }
 #cv,#proj{
     width:100%;
