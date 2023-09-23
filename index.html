@@ -22,7 +22,13 @@ Template Re-distribution is NOT allowed.
   
   <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
   <script src="https://kit.fontawesome.com/0038823a85.js" crossorigin="anonymous"></script>
-		
+  
+  <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("projects.html"); 
+    });
+    </script> 
 </head>
 
 	<body>
@@ -81,8 +87,8 @@ Template Re-distribution is NOT allowed.
 			</div>	
 				
 <!-- here we start with the content-->
-			<div class="row container-fluid tm-content" id="proj">
-				<!--due colonne per i progetti, da una parte infouma e dall'altra cs-->
+			<!--<div class="row container-fluid tm-content" id="proj">
+				COMMENT: due colonne per i progetti, da una parte infouma e dall'altra cs
 				<div class="row ml-2">
 					<h4 class="display-4"> Projects</h4>
 				</div>
@@ -94,7 +100,8 @@ Template Re-distribution is NOT allowed.
 						...
 					</div>
 				</div>
-			</div>
+			</div> -->
+			<div id="includedContent"></div>
 	
 			<div class="row container-fluid tm-content" id="cv">
 				<!--colonne di dimensioni diverse per simulare la struttura del cv: colonna piccola vuota-colonna piccola con scritte-colonna grande a dx-->
