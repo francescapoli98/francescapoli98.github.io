@@ -53,18 +53,16 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1001;
+    z-index: 99;
     width: 100%;
-/*    height: 100%;*/
+    height: 100%;
 }
 #main{
     display:block;
     width:100%;
-    position: absolute;
 }
 #presentation{
     width: 100%;
-    text-align: center;
 }
 #cv,#proj{
     width:100%;
@@ -73,10 +71,10 @@ p {
     background: #fcf1ff;
 }
 .nav-link:hover{
-    /*text-decoration: underline;
+    text-decoration: underline;
     text-decoration-thickness: 1.5px;
-    text-decoration-line:line-through;
-    transition-delay: 100ms;*/
+    /*text-decoration-line:line-through;*/
+    transition-delay: 100ms;
     text-decoration-color: rgb(255, 255, 255);
 }
 
