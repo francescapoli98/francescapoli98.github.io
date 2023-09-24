@@ -62,9 +62,9 @@ hr{
     line-height: 20px !important;
 }
 #about,.card > ul > li{
-    padding: 0 0 0 15px;
+    /*padding: 0 0 0 15px;
     position: relative;
-    display: inline-block;
+    display: inline-block;*/
     width: 100%;
 }
 #about{
@@ -136,7 +136,7 @@ strong,span{
     box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
     overflow-x: hidden;
     margin-bottom: 30px;
-    padding: 15px 30px 30px 30px;
+    /*padding: 15px 30px 30px 30px;*/
     background-color: #fff;
 }
 .card > p{
