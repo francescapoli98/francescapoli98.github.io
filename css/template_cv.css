@@ -1,17 +1,17 @@
 /*TEMPLATE FOR THE RESPOSIVE CV*/
 
-html{
+/*html{
     font-family: 'Open Sans',sans-serif;
     background: whitesmoke;
 }
 a{
     text-decoration: none;
     color: black;
-}
+}*/
 hr{
     background: grey;
 }
-#container{
+/*#container{
     position: relative;
     display: flex;
 }
@@ -56,7 +56,7 @@ hr{
 }
 #image:hover a{
     display: block;
-}
+}*/
 #name{
     font-size: 23px !important;
     line-height: 20px !important;
