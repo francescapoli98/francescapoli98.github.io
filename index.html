@@ -118,32 +118,30 @@ function includeHTML() {
 				
 <!-- here we start with the content-->
 			<div class="container-fluid tm-content" id="content">
-			<!--<div class="row container-fluid tm-content" id="proj">
-				COMMENT: due colonne per i progetti, da una parte infouma e dall'altra cs
-				<div class="row ml-2">
-					<h4 class="display-4"> Projects</h4>
-				</div>
-				<div class="row ml-4 container-fluid">
-					<div class="col text-right">
-						...
+			
+				
+				<div class="container-fluid" id="cv">
+					<!--colonne di dimensioni diverse per simulare la struttura del cv: colonna piccola vuota-colonna piccola con scritte-colonna grande a dx -->
+					<div class="row">
+						<h2>Some of my projects</h2>
 					</div>
-					<div class="col-xl-5 text-left">
-						...
-					</div>
+					<div class="row text-md-left" id="included_cv">
+						<div w3-include-html="proj.html"></div>
+	
+					</div> 
 				</div>
-			</div> -->
 			
 	
-			<div class="container-fluid" id="cv">
-				<!--colonne di dimensioni diverse per simulare la struttura del cv: colonna piccola vuota-colonna piccola con scritte-colonna grande a dx -->
-				<div class="row">
-					<h2>Curriculum Vitae</h2>
-				</div>
-				<div class="row text-md-left" id="included_cv">
-					<div w3-include-html="cv.html"></div>
+				<div class="container-fluid" id="cv">
+					<!--colonne di dimensioni diverse per simulare la struttura del cv: colonna piccola vuota-colonna piccola con scritte-colonna grande a dx -->
+					<div class="row">
+						<h2>Curriculum Vitae</h2>
+					</div>
+					<div class="row text-md-left" id="included_cv">
+						<div w3-include-html="cv.html"></div>
 
-				</div> 
-			</div>
+					</div> 
+				</div>
 
 
 		</div>	
