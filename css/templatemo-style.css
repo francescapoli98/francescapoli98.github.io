@@ -69,6 +69,7 @@ header{
 #main{
     display:block;
     width:100%;
+    margin-bottom: 20px;
 }
 #presentation{
     width: 100%;
@@ -142,7 +143,6 @@ header{
 
 .footer-link {
     margin-top: 20px;
-    padding-top: 5%;
 	font-size: 18px;
     position: fixed;
     bottom: 0;
