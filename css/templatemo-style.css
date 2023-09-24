@@ -74,9 +74,9 @@ p {
     color: #000;
     display: block;
 }
-#cv,#projects,#contacts{
+/*#cv,#projects,#contacts{
     margin: 2%;
-}
+}*/
 .nav-link:hover{
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
