@@ -142,7 +142,7 @@ p {
     width:100%;
     height:max-content;
     background-color: black;
-    z-index: 1000;
+    z-index: 1001;
 }
 
 /* Animation (not active atm)*/
