@@ -49,6 +49,12 @@ header{
 #content p {
 	color: #000;	
 }
+#content a {
+	color: rgba(58,67,125,1);	
+}
+#content a:hover{
+	color: rgba(58,67,125,1);	
+}
 #hi p{
     color: aliceblue;
 }
