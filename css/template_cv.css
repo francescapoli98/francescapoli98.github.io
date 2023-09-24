@@ -68,7 +68,7 @@ hr{
     width: 100%;
 }
 #about{
-    /*font-size: 20px !important;*/
+    font-size: 18px !important;
     padding: 0 !important;
 }
 #name, #about > p{
@@ -76,7 +76,7 @@ hr{
     font-family: 'Open Sans', sans-serif;
 }
 #email{
-    font-size: 15px !important;
+    font-size: 18px !important;
     font-weight: bold !important;
     font-family: 'Cutive Mono',monospace;
 }
@@ -86,7 +86,7 @@ hr{
 }
 strong,span{
     color: black;
-    font-size: 16px;
+    font-size: 18px;
 }
 #social-links,#about{
     display: inline-block;
@@ -118,7 +118,7 @@ strong,span{
 }
 #about > a, .edit{
     position: absolute;
-    font-size: 15px !important;
+    font-size: 18px !important;
 }
 .stroke-transparent {
  -webkit-text-stroke: 1px #000;
