@@ -46,9 +46,10 @@ header{
     font-size: 2rem;
 }
 
-p {
-	color: #FFFFFF;	
+#content p {
+	color: #000;	
 }
+
 #hi p{
     color: aliceblue;
 }
