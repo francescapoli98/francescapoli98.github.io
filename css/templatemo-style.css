@@ -81,7 +81,7 @@ header{
     z-index: 100;
     background: #fcf1ff;
     color: #000;
-    display: block;
+    display: inline-block;
 }
 #cv,#projects,#contacts{
     margin: 2%;
