@@ -9,7 +9,7 @@ a{
     color: black;
 }*/
 hr{
-    background: grey;
+    background: rgba(58,67,125,1);;
 }
 #container_cv{
     position: relative;
