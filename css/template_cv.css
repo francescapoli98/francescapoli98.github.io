@@ -79,6 +79,7 @@ hr{
     font-size: 18px !important;
     font-weight: bold !important;
     font-family: 'Cutive Mono',monospace;
+    color:  rgba(58,67,125,1);
 }
 #college,#email,#year-graduation,#education,#more-about,#telephone,#fax{
     color:  rgba(58,67,125,1);
