@@ -83,7 +83,7 @@ hr{
 }
 #college,#email,#year-graduation,#education,#more-about,#telephone,#fax{
     color:  rgba(58,67,125,1);
-    font-size: 18px;
+    font-size: 17px;
 }
 strong,span{
     color: black;
@@ -92,19 +92,19 @@ strong,span{
 /* #social-links,#about{
     display: inline-block;
 } */
-#social-links{
+/* #social-links{
     margin-bottom: 12px;
 }
 #social-links a{
     margin: 0 10px;
-}
+} */
 /* #edit-intro{
     display: block;
     color:#097bbf;
     font-family: 'Nunito', sans-serif;
 } */
 .fab{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .fab,.fas{
     color: rgba(58,67,125,1);
