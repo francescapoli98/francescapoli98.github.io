@@ -71,10 +71,10 @@ hr{
     font-size: 18px !important;
     padding: 0 !important;
 }
-#name, #about > p{
+/* #name, #about > p{
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
-}
+} */
 #email{
     font-size: 18px !important;
     font-weight: bold !important;
