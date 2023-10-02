@@ -193,6 +193,9 @@ strong,span{
         width: 90%;
         display: inline-block;
     }
+    #email{
+        font-size: 12px;
+    }
     .card{
         margin: 0 5%;
         margin-bottom: 30px;
