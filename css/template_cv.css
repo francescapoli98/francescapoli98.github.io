@@ -189,8 +189,9 @@ strong,span{
     #container{
         display: block;
     }
-    #profile{
+    #info-cards, #profile{
         width: 90%;
+        display: inline-block;
     }
     .card{
         margin: 0 5%;
