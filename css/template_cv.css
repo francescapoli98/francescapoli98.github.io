@@ -191,7 +191,7 @@ strong,span{
     }
     #info-cards, #profile{
         width: 100%;
-        display: inline-block;
+        display: block;
     }
     #email{
         font-size: 12px;
