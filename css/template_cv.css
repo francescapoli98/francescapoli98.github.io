@@ -190,7 +190,7 @@ strong,span{
         display: block;
     }
     #info-cards, #profile{
-        width: 90%;
+        width: 100%;
         display: inline-block;
     }
     #email{
