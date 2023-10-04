@@ -193,6 +193,7 @@ strong,span{
         width: 100%;
         display: block;
         margin: 1%;
+        flex: 100%;
     }
     #email{
         font-size: 12px;
