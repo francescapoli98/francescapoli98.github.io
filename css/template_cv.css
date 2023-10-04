@@ -128,10 +128,7 @@ strong,span{
  -webkit-text-stroke: 1px  rgba(58,67,125,1);
  -webkit-text-fill-color: transparent;
 }
-/* .blue{
-    color: #097bbf !important;
-    font-size: 13px;
-} */
+
 .stroke-transparent-blue {
  -webkit-text-stroke: 1px #097bbf;
  -webkit-text-fill-color: transparent;
