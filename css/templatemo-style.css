@@ -272,4 +272,9 @@ header{
 	.tm-btn-subscribe {
 		margin-top: 20px;
 	}
+    #main, #content{
+        display: block;
+        width: 100%;
+
+    }
 }
