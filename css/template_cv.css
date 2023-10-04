@@ -192,7 +192,7 @@ strong,span{
     #container{
         display: block;
     }
-    #info-cards, #profile{
+    #profile{
         width: 100%;
         display: inline-block;
         margin: 1%;
