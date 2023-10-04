@@ -121,6 +121,9 @@ strong,span{
     position: absolute;
     font-size: 18px !important;
 }
+.btn-dark{
+    color: rgba(184,71,181,1);
+}
 .stroke-transparent {
  -webkit-text-stroke: 1px  rgba(58,67,125,1);
  -webkit-text-fill-color: transparent;
