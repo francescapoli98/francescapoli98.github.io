@@ -191,15 +191,21 @@ strong,span{
     }
     #profile{
         width: 100%;
-        display: inline-block;
+        display: block;
         margin: 1%;
         flex: none;
     }
-    #email{
-        font-size: 12px;
+    #info-cards{
+        width: 100%;
+        display: block;
+        margin: 1%;
+        flex: none;
     }
+    /* #email{
+        font-size: 12px;
+    } */
     .card{
-        margin: 0 5%;
+        /* margin: 0 5%; */
         margin-bottom: 30px;
     }
 }
