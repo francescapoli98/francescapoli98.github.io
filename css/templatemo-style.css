@@ -280,5 +280,8 @@ header{
         display: block;
         width: 100%;
     }
-
+    #presentation, #ptext{
+        width: 100%;
+        flex: auto;
+    }
 }
