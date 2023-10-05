@@ -156,7 +156,7 @@ header{
 }
 
 /* Animation (not active atm)*/
-.cb-slideshow,
+/* .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;
     width: 100%;
@@ -219,7 +219,7 @@ header{
 .cb-slideshow li:nth-child(6) { 
     background-image: url(../img/bg3.jpg);
     animation-delay: 60s; 
-}
+} */
 
 
 @keyframes imageAnimation { 
