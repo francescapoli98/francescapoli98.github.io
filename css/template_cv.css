@@ -193,20 +193,20 @@ strong,span{
         width: 100%;
         display: block;
         margin: 1%;
-        flex: none;
+        /* flex: none; */
     }
     #info-cards{
         width: 100%;
         display: block;
         margin: 1%;
-        flex: none;
+        /* flex: none; */
     }
     /* #email{
         font-size: 12px;
     } */
     .card{
         /* margin: 0 5%; */
-        margin-bottom: 30px;
+        margin: 5%
     }
 }
 
