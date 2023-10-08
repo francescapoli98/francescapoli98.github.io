@@ -193,13 +193,13 @@ strong,span{
         width: 100%;
         display: block;
         margin: 1%;
-        /* flex: none; */
+        flex: content;
     }
     #info-cards{
         width: 100%;
         display: block;
         margin: 1%;
-        /* flex: none; */
+        flex: content; 
     }
     /* #email{
         font-size: 12px;
