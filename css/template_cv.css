@@ -199,7 +199,8 @@ strong,span{
         width: 100%;
         display: block;
         margin: 1%;
-        flex: content; 
+        padding: 1%;
+        flex: auto; 
     }
     /* #email{
         font-size: 12px;
