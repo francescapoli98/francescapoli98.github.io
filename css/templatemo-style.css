@@ -146,13 +146,14 @@ header{
 .footer-link {
     margin-top: 20px;
 	font-size: 18px;
-    position: absolute;
+    position:static;
     bottom: 0;
     left: 0;
     color: white;
     text-align:center;
     width:100%;
     height:max-content;
+    padding: 1%;
     background-color: black;
     z-index: 1001;
 }
