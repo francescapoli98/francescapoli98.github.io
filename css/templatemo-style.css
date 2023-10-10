@@ -279,12 +279,12 @@ header{
 	}
 } */
 
-/* @media screen and (max-width: 576px) { 
-    .cb-slideshow li div h3 { font-size: 80px } 
-	
+@media screen and (max-width: 576px) { 
+    /* .cb-slideshow li div h3 { font-size: 80px }  */
+/* 	
 	.tm-btn-subscribe {
 		margin-top: 20px;
-	}
+	} */
     .contactme{
         float: none;
         width: 100%;
@@ -292,15 +292,21 @@ header{
     /* #main{
         width: 100%;
         flex: auto;
-    } 
-    #content{
+    } */
+    /* #content{
         display: block;
         width: 100%;
-        flex: content;
+        /* flex: content; 
     }
     #presentation, #ptext{
         display: inline-block;
         width: 100%;
         flex: auto;
+    } */
+}  
+
+@media screen and (max-width: 320px) {
+    div{
+        display: inline-block;    
     }
-}  */
+}
