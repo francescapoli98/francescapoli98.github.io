@@ -263,7 +263,7 @@ header{
     .cb-slideshow li div h3 { font-size: 140px }
 } */
 @media screen and (max-width: 960px) {
-    h1,p{
+    #presentation > h1,p{
         text-align: left;
         margin-left: 5px;
     }
