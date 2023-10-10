@@ -76,7 +76,7 @@ header{
     text-align: center;
 }
 #presentation > .nav-link{
-    border-radius: 90%;
+    border-radius: 45%;
     border-color:  rgb(255, 255, 255);
 }
 #content{
