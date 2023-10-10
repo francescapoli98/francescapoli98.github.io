@@ -201,6 +201,7 @@ strong,span{
         margin: 1%;
         padding: 1%;
         flex: auto; 
+        align-items: center;
     }
     /* #email{
         font-size: 12px;
