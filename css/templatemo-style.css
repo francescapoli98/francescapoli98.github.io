@@ -124,7 +124,8 @@ header{
 
 .tm-social-icons-container {
     margin: 10px;
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
+    position: fixed;
     z-index: 1001;
 } 
 
@@ -144,7 +145,7 @@ header{
 .footer-link {
     margin-top: 20px;
 	font-size: 18px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     color: white;
