@@ -4,7 +4,7 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 300;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
     color: #FFFFFF;
     /*trying out background gradient*/
     /*background: rgb(63,94,251);*/
@@ -70,9 +70,9 @@ header{
     display:block;
     width:100%;
     margin-bottom: 20px;
+    z-index: 1001;
 }
 #presentation{
-    width: 100%;
     text-align: center;
 }
 #presentation > .nav-link{
@@ -80,18 +80,18 @@ header{
     border-color:  rgb(255, 255, 255);
 }
 #content{
-    width:100%;  
-    height: 100%; 
+    /* width:100%;  
+    height: 100%;  */
     /* min-height: 100vh; */
     /* width: max-content;  */
-    z-index: 1001;
+    /* z-index: 1001; */
     background: #f7f3fb;
     color: #000;
-    margin: 20px;  
-    padding: 5%;
+    margin: 2%;  
+    padding: 5%; 
 }
 #cv,#projects,#contacts{
-    margin: 2%;
+    /* margin: 2%; */
 }
 .nav-link:hover{
     text-decoration: underline;
@@ -101,17 +101,17 @@ header{
     text-decoration-color: rgb(255, 255, 255);
 }
 
-.cb-slideshow-text-container {
+/* .cb-slideshow-text-container {
     height: 100vh;
     display: flex;
     align-items: center;
-}
+} */
 
-.tm-content {
+/* .tm-content {
     z-index: 1001;
-}
+} */
 
-.contact_email {
+/* .contact_email {
 	color: #FFFFFF;
 }
 .tm-btn-subscribe {
@@ -122,14 +122,14 @@ header{
     font-weight: 300;
     font-size: 1.4rem;
     cursor: pointer;
-}
+} */
 
-.tm-btn-subscribe:hover {
+/* .tm-btn-subscribe:hover {
     background-color: #055278;
-}
+} */
 
 .tm-social-icons-container {
-    margin: 10px;
+    margin: 5px;
     /* background-color: black;
     /* position: -webkit-sticky; 
     position: fixed; */
