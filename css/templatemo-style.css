@@ -124,9 +124,10 @@ header{
 
 .tm-social-icons-container {
     margin: 10px;
-    background-color: black;
-    /* position: -webkit-sticky; */
-    position: fixed;
+    /* background-color: black;
+    /* position: -webkit-sticky; 
+    position: fixed; */
+    position: -webkit-sticky;
     z-index: 1001;
 } 
 
