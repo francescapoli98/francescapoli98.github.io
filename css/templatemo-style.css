@@ -144,7 +144,7 @@ header{
 }
 
 .footer-link {
-    margin-top: 20px;
+    /* margin-top: 20px; */
 	font-size: 18px;
     position:static;
     bottom: 0;
