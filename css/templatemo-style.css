@@ -286,11 +286,10 @@ header{
         float: none;
         width: 100%;
     }
-    #main{
-        display: inline-block;
+    /* #main{
         width: 100%;
         flex: auto;
-    }
+    } */
     #content{
         display: block;
         width: 100%;
