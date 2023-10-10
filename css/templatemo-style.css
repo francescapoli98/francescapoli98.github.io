@@ -145,7 +145,7 @@ header{
 .footer-link {
     margin-top: 20px;
 	font-size: 18px;
-    /* position: fixed; */
+    position: absolute;
     bottom: 0;
     left: 0;
     color: white;
