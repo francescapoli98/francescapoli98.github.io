@@ -76,7 +76,7 @@ hr{
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
 } */
-#email{
+.email{
     font-size: 18px !important;
     font-weight: bold !important;
     font-family: 'Cutive Mono',monospace;
