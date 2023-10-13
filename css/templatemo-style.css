@@ -146,6 +146,7 @@ header{
     text-align: center;
 }
 
+
 .fa {
     color: #FFFFFF;
 }
@@ -166,6 +167,11 @@ header{
 }
 .contactme{
     color:  rgba(58,67,125,1);
+    border-color:  rgba(58,67,125,1);
+}
+.contactme > .tm-social-link, .fa{
+    color:  rgba(58,67,125,1);
+    border-color:  rgba(58,67,125,1);
 }
 
 /* Animation (not active atm)*/
