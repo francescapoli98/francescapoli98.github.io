@@ -165,9 +165,11 @@ header{
     background-color: black;
     /* z-index: 1001; */
 }
-.contactme{
+.contactme, .callme{
     color:  rgba(58,67,125,1);
     border-color:  rgba(58,67,125,1);
+    margin-top: 5%;
+    display: inline-block;
 }
 .contactme > .tm-social-link, .fa{
     color:  rgba(58,67,125,1);
@@ -292,8 +294,8 @@ header{
 		margin-top: 20px;
 	} */
     .contactme{
-        float: none;
         width: 100%;
+        display: inline-block;
     }
     /* #main{
         width: 100%;

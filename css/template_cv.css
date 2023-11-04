@@ -186,6 +186,7 @@ strong,span{
         margin-left: 5%;
     }
 }
+
 /* @media screen and (max-width:850px){
     #container{
         display: block;
@@ -204,11 +205,11 @@ strong,span{
         flex: auto; 
         align-items: center;
     }
-    /* #email{
+     #email{
         font-size: 12px;
-    } */
+    } 
     .card{
-        /* margin: 0 5%; */
+         margin: 0 5%; 
         margin: 5%
     }
 } */
