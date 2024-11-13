@@ -62,16 +62,17 @@ a{
     font-size: 23px !important;
     line-height: 20px !important;
 }
-/*#about,.card > ul > li{
-    /*padding: 0 0 0 15px;
+.card li {
+    padding: 0 0 15px 0; 
     position: relative;
     display: inline-block;
     width: 100%;
-}*/
-#about{
+    /* margin-bottom: 15px; */
+} 
+/* #about{
     font-size: 18px !important;
     padding: 1% !important;
-}
+} */
 /* #name, #about > p{
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
