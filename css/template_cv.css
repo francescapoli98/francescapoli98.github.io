@@ -186,8 +186,17 @@ strong,span{
     #profile{
         margin-left: 5%;
     }
+    
 }
 
+@media screen and (max-width:480px){
+    .email{
+        font-size: 10px !important;
+        font-weight: bold !important;
+        font-family: 'Cutive Mono', monospace;
+    }
+    
+}
 /* @media screen and (max-width:850px){
     #container{
         display: block;
