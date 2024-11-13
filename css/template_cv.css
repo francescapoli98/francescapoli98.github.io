@@ -23,7 +23,7 @@ a{
     width: 100%;
     height: 100%;
 }
- #info-cards{
+#info-cards{
     /* flex: 40%; */
     display: block;
     margin-top: 5%;
@@ -78,9 +78,9 @@ a{
     font-family: 'Open Sans', sans-serif;
 } */
 .email{
-    font-size: 18px !important;
+    font-size: 15px !important;
     font-weight: bold !important;
-    font-family: 'Cutive Mono',monospace;
+    font-family: 'Cutive Mono', monospace;
 }
 #college,#email,#year-graduation,#education,#more-about,#telephone,#fax{
     color:  rgba(58,67,125,1);
@@ -151,7 +151,7 @@ strong,span{
     box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
     /* overflow-x: hidden; */
     margin-bottom: 30px;
-    padding: 1%;
+    padding: 2%;
     background-color: transparent;
 }
 .card > p{
