@@ -16,6 +16,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 html,body {
 	margin:0;
 	padding:0;
+	scroll-behavior: smooth;
 }
 table {
 	border-collapse:collapse;
@@ -54,7 +55,7 @@ body{
 	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	background: #000;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 20px;
 	/*color: #aa3e03; */
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -94,7 +95,7 @@ a{
 
 }*/
 .container > header h2, p.info{
-	font-size: 16px;
+	font-size: 20px;
 	font-style: italic;
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
@@ -103,7 +104,7 @@ a{
 .codrops-top{
 	font-family: Arial, sans-serif;
 	line-height: 24px;
-	font-size: 11px;
+	font-size: 15px;
 	width: 100%;
 	background: #000;
 	opacity: 0.9;
@@ -142,7 +143,7 @@ p.codrops-demos a.current-demo:hover{
     display: inline-block;
 	border: 1px solid #6d0019;
 	padding: 4px 10px 3px;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 18px;
 	margin: 2px 3px;
 	font-weight: 800;
@@ -181,6 +182,7 @@ p.codrops-demos a.current-demo:hover{
 	color: #A5727D;
 	background: #6d0019;
 }
+
 /* Media Queries */
 @media screen and (max-width: 767px) {
 	.container > header{

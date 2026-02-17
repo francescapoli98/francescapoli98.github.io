@@ -58,6 +58,10 @@ a{
 #image:hover a{
     display: block;
 } */
+.fullscreen{
+    min-height: 100vh;
+}
+
 #name{
     font-size: 23px !important;
     line-height: 20px !important;
@@ -78,13 +82,13 @@ a{
     font-family: 'Open Sans', sans-serif;
 } */
 .email{
-    font-size: 15px !important;
+    font-size: 18px !important;
     font-weight: bold !important;
     font-family: 'Cutive Mono', monospace;
 }
 #college,#email,#year-graduation,#education,#more-about,#telephone,#fax{
     color:  rgba(58,67,125,1);
-    font-size: 17px;
+    font-size: 20px;
 }
 strong,span{
     color: black;
@@ -157,25 +161,25 @@ strong,span{
 .card > p{
     color: #000;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2;
 }
 .card > p > i{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .card > ul{
     list-style-type: none;
 }
 .tags{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bolder;
 }
 .tags ~ a{
     display: none !important;
 }
 .tags span{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     color: #0e141e;
 }
