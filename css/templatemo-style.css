@@ -43,13 +43,14 @@ h2 {
 header{
     z-index: 1001;
     font-size: 2rem;
-    position:fixed;
+    position: sticky;
     top: 0;
     left: 0;
+    padding: 0.5%;
+    margin-bottom: 10px;
     text-align:left;
     width:100%;
     height:min-content;
-    padding: 0;
     background-color: white;
     opacity: 0.90;
 }

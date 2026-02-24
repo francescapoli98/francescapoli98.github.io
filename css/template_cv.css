@@ -191,6 +191,9 @@ strong,span{
     #profile{
         margin-left: 5%;
     }
+    .fullscreen{
+        min-height: 80vh;
+    }
     
 }
 
