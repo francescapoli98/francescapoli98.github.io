@@ -76,7 +76,7 @@ a{
 .container > header{
 	padding: 30px 30px 10px 20px;
 	margin: 0px 20px 10px 20px;
-	/*position: relative;*/
+	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     text-align: left;
@@ -91,11 +91,9 @@ a{
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     padding: 0px 0px 5px 0px;
 }
-/*.container > header h1 span{
 
-}*/
 .container > header h2, p.info{
-	font-size: 20px;
+	font-size: 25px;
 	font-style: italic;
 	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
@@ -104,7 +102,7 @@ a{
 .codrops-top{
 	font-family: Arial, sans-serif;
 	line-height: 24px;
-	font-size: 15px;
+	font-size: 25px;
 	width: 100%;
 	background: #000;
 	opacity: 0.9;
@@ -143,7 +141,7 @@ p.codrops-demos a.current-demo:hover{
     display: inline-block;
 	border: 1px solid #6d0019;
 	padding: 4px 10px 3px;
-	font-size: 16px;
+	font-size: 25px;
 	line-height: 18px;
 	margin: 2px 3px;
 	font-weight: 800;
