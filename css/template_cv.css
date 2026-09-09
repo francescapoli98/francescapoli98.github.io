@@ -11,6 +11,9 @@ a{
 /* hr{
     background: rgba(58,67,125,1);
 } */
+.ghrepo a{
+    color: rgba(184,71,181,1);
+}
 #container_cv{
     position: relative;
     display: flex;
@@ -187,6 +190,7 @@ strong,span{
 .tags span span{
     color:rgba(58,67,125,1);
 }
+
 @media screen and (max-width:1090px){
     #profile{
         margin-left: 5%;
