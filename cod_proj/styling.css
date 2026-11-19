@@ -7,7 +7,8 @@ html{
 
 body{
     font-family: "Bookman Old Style";
-    font: auto;
+    /* font: auto; */
+    font-size: 0.85em;
 }
 
 header {
