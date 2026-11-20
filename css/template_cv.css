@@ -1,18 +1,78 @@
 /*TEMPLATE FOR THE RESPOSIVE CV*/
 
-/*html{
+html{
     font-family: 'Open Sans',sans-serif;
-    background: whitesmoke;
+    /* background: whitesmoke; */
+    font-size: 0.8em;
 }
-a{
+/*a{
     text-decoration: none;
     color: black;
 }*/
 /* hr{
     background: rgba(58,67,125,1);
 } */
+ /* BOTTONI CHE RIMANDANO A SEZIONI DELLO SCROLL ('my work' e 'contact me') */
+ /* contenitore: i due bottoni centrati e con spazio tra loro */
+.tm-content .nav {
+    justify-content: center;
+    gap: 16px;
+    font-family: 'Cutive Mono', monospace;
+
+}
+
+/* nav-fill li allarga a tutta la riga: li riportiamo alla larghezza del contenuto */
+.tm-content .nav-item {
+    flex: 0 0 auto;
+}
+
+/* stile base: pillola "vetro" con bordo bianco */
+.tm-content .nav-link {
+    padding: 12px 32px;
+    border: 1.5px solid rgba(255,255,255,.7);
+    border-radius: 999px;
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(6px);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    transition: transform .2s ease, box-shadow .2s ease, background .2s ease, color .2s ease;
+}
+
+.tm-content .nav-link:hover,
+.tm-content .nav-link:focus {
+    background: #fff;
+    color: rgba(58,67,125,1);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.25);
+}
+
+/* "my work" = azione principale: pieno, con gradiente magenta-viola */
+/* .tm-content .nav-item:first-child .nav-link {
+    border-color: transparent;
+    background: linear-gradient(135deg, rgba(184,71,181,1), #7a4fd0);
+    box-shadow: 0 6px 18px rgba(184,71,181,.45);
+} */
+/* .tm-content .nav-item:first-child .nav-link:hover,
+.tm-content .nav-item:first-child .nav-link:focus {
+    background: linear-gradient(135deg, rgba(184,71,181,1), #7a4fd0);
+    color: #fff;
+    box-shadow: 0 10px 24px rgba(184,71,181,.6);
+    filter: brightness(1.1);
+} *
+
+.tm-content .nav-link:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 3px;
+}
+/* THE END */
+
+
+
 .ghrepo a{
     color: rgba(184,71,181,1);
+    font-size: 0.8em;
 }
 #container_cv{
     position: relative;
@@ -77,10 +137,10 @@ a{
     list-style-position: outside;
     /* margin-bottom: 15px; */
 } 
-/* #about{
+#about{
     font-size: 18px !important;
     padding: 1% !important;
-} */
+}
 /* #name, #about > p{
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
@@ -92,11 +152,11 @@ a{
 }
 #college,#email,#year-graduation,#education,#more-about,#telephone,#fax{
     color:  rgba(58,67,125,1);
-    font-size: 25px;
+    font-size: 1.2em;
 }
 strong,span{
     color: black;
-    font-size: 25px;
+    font-size: 1.2em;
 }
 /* #social-links,#about{
     display: inline-block;
@@ -202,18 +262,63 @@ strong,span{
 }
 
 @media (max-width: 600px) {
+    #about p{
+        font-size: 18px !important;
+    }
     .card {
         box-shadow: none;
         background-color: transparent;
         border: none;
+        border-bottom: 1px solid rgba(58,67,125,.3);
+        border-radius: 0;
         padding: 0;
-        margin-bottom: 15px;
+        margin-bottom: 0;
+    }
+
+    /* section title = toggle button */
+    .card > p {
+        position: relative;
+        margin: 0;
+        padding: 14px 40px 14px 8px;
+        font-size: 20px;
+        cursor: pointer;
+        user-select: none;
+    }
+    .card > p::after {
+        content: "+";
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: rgba(58,67,125,1);
+        font-size: 26px;
+    }
+    .card.open > p::after {
+        content: "–";
+    }
+
+    /* content hidden until the card is open */
+    .card > ul {
+        display: none;
+        margin: 0;
+        padding: 0 8px 10px;
+    }
+    .card.open > ul {
+        display: block;
+    }
+
+    /* optional: smaller text inside the sections */
+    .tags {
+        font-size: 18px;
+    }
+    .tags span {
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width:480px){
     .email{
-        font-size: 10px !important;
+        /* font-size: 10px !important; */
         font-weight: bold !important;
         font-family: 'Cutive Mono', monospace;
     }
